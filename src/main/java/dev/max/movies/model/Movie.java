@@ -1,4 +1,4 @@
-package dev.max.movies;
+package dev.max.movies.model;
 
 import lombok.Data;
 import lombok.AllArgsConstructor;
