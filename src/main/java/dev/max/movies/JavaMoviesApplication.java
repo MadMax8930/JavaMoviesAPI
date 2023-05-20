@@ -15,7 +15,7 @@ public class JavaMoviesApplication {
 
 	@GetMapping("/root")
 	public String apiRoot() {
-		return "Hello broo";
+		return "Hello brvoo";
 	}
 
 }
