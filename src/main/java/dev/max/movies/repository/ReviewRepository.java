@@ -1,13 +1,9 @@
 package dev.max.movies.repository;
 
-import dev.max.movies.model.Movie;
+import dev.max.movies.model.Review;
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.Optional;
-
 @Repository
-public interface MovieRepository extends MongoRepository<Movie, ObjectId> {
-    Optional<Movie> findMovieByImdbId(String imdbId);
-}
+public interface ReviewRepository extends MongoRepository<Review, ObjectId> {}

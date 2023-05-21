@@ -12,8 +12,8 @@ import java.util.List;
 
 @Document(collection = "movies")
 @Data // getters & setters
-@AllArgsConstructor // constructor that takes all these private field as argument
-@NoArgsConstructor // constructor that takes no parameters
+@AllArgsConstructor
+@NoArgsConstructor
 public class Movie {
     @Id
     private ObjectId id;
@@ -24,6 +24,6 @@ public class Movie {
     private String poster;
     private List<String> genres;
     private List<String> backdrops;
-    @DocumentReference // db store only ids of the review (manual ref relationship)
+    @DocumentReference
     private List<Review> reviewIds;
 }
