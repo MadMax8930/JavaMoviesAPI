@@ -1,5 +1,5 @@
 ## Java Spring Boot Movie Application
-Frontend made in React is in progress.
+Frontend made in React is on the [front] branch
 
 ### DB
 [MongoDB Atlas](https://www.mongodb.com/atlas/database) documentation 
