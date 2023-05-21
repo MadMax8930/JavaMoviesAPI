@@ -1,6 +1,6 @@
 ## React frontend for the Spring Boot Movie Application
 
-[JavaMoviesApi](https://github.com/MadMax8930/JavaMoviesAPI) repository
+[Backend](https://github.com/MadMax8930/JavaMoviesAPI) code
 
 ### Dependencies
 
