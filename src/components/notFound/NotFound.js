@@ -1,7 +1,7 @@
 const NotFound = () => {
   return (
     <div>
-      This page could not be found
+      Oops, this page could not be found :(
     </div>
   )
 }
