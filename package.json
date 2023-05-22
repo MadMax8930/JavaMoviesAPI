@@ -1,5 +1,5 @@
 {
-  "name": "movie-v1",
+  "name": "movie-v1-frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
